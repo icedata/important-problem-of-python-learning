@@ -1,0 +1,6 @@
+import os                                               # 操作系统用来管理文件路径
+os.chdir("C:\Users\stevenwsy\Desktop\Steven - Python")  # 将路径改为 "C:\Users\stevenwsy\Desktop\Python_Pro"
+
+# 注意：你们要把 "C:\Users\stevenwsy\Desktop\Python_Pro" 改成在你们电脑里面的路径
+
+products = pd.read_csv('amazon_baby_subset.csv')
